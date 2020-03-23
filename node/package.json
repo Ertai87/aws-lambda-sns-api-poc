@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "zip": "zip -r lambda.zip ."
   },
   "repository": {
     "type": "git",
@@ -13,6 +14,7 @@
   "author": "Lyle Waldman",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.643.0"
+    "aws-sdk": "^2.643.0",
+    "bluebird": "^3.7.2"
   }
 }

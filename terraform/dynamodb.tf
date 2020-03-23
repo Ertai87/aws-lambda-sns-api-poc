@@ -1,11 +1,11 @@
 resource "aws_dynamodb_table" "dynamodb_table"{
-  hash_key = "ID"
+  hash_key = "id"
   name = "MessagesTable"
   write_capacity = 5
   read_capacity = 5
 
   attribute {
-    name = "ID"
+    name = "id"
     type = "S"
   }
 }
